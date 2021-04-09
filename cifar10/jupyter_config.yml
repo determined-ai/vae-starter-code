@@ -1,0 +1,6 @@
+description: test-notebook
+resources:
+  slots: 2
+bind_mounts:
+  - host_path: /data/notebook_scratch
+    container_path: /scratch
